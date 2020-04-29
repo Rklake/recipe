@@ -1,21 +1,15 @@
 html {
-  font: 100%/1.17 sans-serif;
+  font: 100%/1.15 serif;
 }
 
 body {
   max-width: 60rem;
-  background-color: #F6FBFD;/* https://htmlcolorcodes.com */
+  background-color: #f0fff0; /* https://htmlcolorcodes.com */
   padding: 1rem;
   margin: 0 auto;
 }
 
 /* lists / reset styles */
-
-img {
-    width:auto;
-    max-width:100%
-    height: auto;
-}
 
 dl,
 ol,
@@ -30,7 +24,7 @@ dd {
 
 ol,
 ul {
-  padding-left: 1em;
+  padding-left: 1.4em;
 }
 
 /* navigation / menu */
@@ -66,7 +60,7 @@ nav li:first-child {
 
 .list {
   list-style-position: inside;
-  padding-left: 1;
+  padding-left: 0;
   border-top: 1px dashed #000;
   border-bottom: 1px dashed #000;
 }
@@ -78,7 +72,7 @@ nav li:first-child {
 }
 
 .list li:first-child {
-  border-top: 1px;
+  border-top: 0;
 }
 
 /* text details */
@@ -91,7 +85,7 @@ nav li:first-child {
 }
 
 mark {
-  background-color: #cbc;
+  background-color: #cfc;
 }
 
 .and {
